@@ -20,7 +20,12 @@ int main (){
         }
     }
 
-
+    if(l==n && c==0){
+        printf("-1");
+    }
+    else{
+    printf("%d",l);
+    }
     
     return 0;
 }
